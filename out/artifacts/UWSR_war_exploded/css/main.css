@@ -1,0 +1,85 @@
+header h1{
+    font-family: "Franklin Gothic Book";
+    text-align: center;
+}
+
+
+#ListOfLinks{
+    width: 320px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.Link, .Comment{
+    padding: 5px;
+    border: 1px solid #000;
+    margin: 10px;
+    width: 300px;
+}
+
+.Link a{
+    color: #121212;
+    text-decoration: none;
+}
+
+.Link a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+.Link .Useful{
+    color: #10ff10;
+}
+.Link .Useless{
+    color: #ff2020;
+}
+
+.btns a{
+    padding: 3px;
+    background: #000000;
+    color: #ffffff;
+}
+
+.btns a:hover{
+    background: #cccccc;
+    text-decoration: none;
+}
+
+.FormEditComment form{
+    width: 40%;
+    border: 3px solid #101010;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.comments{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.FormComment form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+#Search form{
+    display: flex;
+    width: 300px;
+    margin: 15px auto;
+}
+
+main{
+    display: flex;
+}
+
+#FindedLinks{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #121212;
+}
